@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/static/css/layoutStyle.css"/>
     <link rel="stylesheet" href="/static/css/layoutPhone.css"/>
     <link rel="stylesheet" href="/static/css/index.css"/>
+    <link rel="stylesheet" href="/static/css/member.css">
+    
   </head>
   <body>
     <div class="navbar">
@@ -23,85 +25,79 @@
         </ul>
       </div>
     </div>
-    
-<div class="container">
-    <div class="intro">
-      <h2>Work is the best way to explore itself.</h2>
-      <p>we also provide best work or very less time without any extra fee.</p>
-      <button id="introBtn">Find Member</button>
-    </div>
-  </div>
-  <div class="cards">
-    <h2>Member Categories </h2>
-    <div class="card-container">
-      <div class="card" id="card1">
-        <div class="cardHead">
-          <h3>Music
-            <hr/>
-          </h3><img src="/static/images/music.png" alt="music"/>
+    <div class="member">
+      <div class="memberCard">
+        <div onclick="exp(this)" class="block">
+          <div class="blockHead">
+            <h3>Music</h3>
+            <p>Music listening is the best therapy to remove the hardness of our mind.</p>
+          </div>
+          <div class="blockList">
+            <ul class="hide">
+              <li>First name</li>
+            </ul>
+          </div>
         </div>
-        <div class="cardContent">
-          <p>Music listening is the best therapy to remove the hardness of our mind.</p><a href="/member.html"> 
-            <button id="cardBtn">Show Member</button></a>
+        <div onclick="exp(this)" class="block">
+          <div class="blockHead">
+            <h3>Painting</h3>
+            <p>Painting is the best art to express your thoughts and inner experience.</p>
+          </div>
+          <div class="blockList">
+            <ul class="hide">
+              <li>First name</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="card" id="card2">
-        <div class="cardHead">
-          <h3>Painting
-            <hr/>
-          </h3><img src="/static/images/painter.png" alt="painter"/>
+        <div onclick="exp(this)" class="block">
+          <div class="blockHead">
+            <h3>Photography</h3>
+            <p>Photo is not a piece of paper is it creations of emotions.</p>
+          </div>
+          <div class="blockList">
+            <ul class="hide">
+              <li>First name</li>
+            </ul>
+          </div>
         </div>
-        <div class="cardContent">
-          <p>Painting is the best art to express your thoughts and inner experience.</p><a href="/member.html"> 
-            <button id="cardBtn">Show Member</button></a>
+        <div onclick="exp(this)" class="block">
+          <div class="blockHead">
+            <h3>Writer</h3>
+            <p>Writing is nothing is it combination of special words.</p>
+          </div>
+          <div class="blockList">
+            <ul class="hide">
+              <li>First name</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="card" id="card3">
-        <div class="cardHead">
-          <h3>Photography
-            <hr/>
-          </h3><img src="/static/images/photography.png" alt="photography"/>
+        <div onclick="exp(this)" class="block">
+          <div class="blockHead">
+            <h3>Youtuber</h3>
+            <p>YouTube watching is something good after complete your work.</p>
+          </div>
+          <div class="blockList">
+            <ul class="hide">
+              <li>First name</li>
+            </ul>
+          </div>
         </div>
-        <div class="cardContent">
-          <p>Photo is not a piece of paper is it creations of emotions.</p><a href="/member.html"> 
-            <button id="cardBtn">Show Member</button></a>
+        <div onclick="exp(this)" class="block">
+          <div class="blockHead">
+            <h3>Developer</h3>
+            <p>Development is field of create something new interesting.</p>
+          </div>
+          <div class="blockList">
+            <ul class="hide">
+              <li>First name</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="card" id="card4">
-        <div class="cardHead">
-          <h3>Writer
-            <hr/>
-          </h3><img src="/static/images/writer.png" alt="writer"/>
-        </div>
-        <div class="cardContent">
-          <p>Writing is nothing is it combination of special words.</p><a href="/member.html"> 
-            <button id="cardBtn">Show Member</button></a>
-        </div>
-      </div>
-      <div class="card" id="card4">
-        <div class="cardHead">
-          <h3>Youtuber
-            <hr/>
-          </h3><img src="/static/images/youtuber.png" alt="youtuber"/>
-        </div>
-        <div class="cardContent">
-          <p>YouTube watching is something good after complete your work.</p><a href="/member.html"> 
-            <button id="cardBtn">Show Member</button></a>
-        </div>
-      </div>
-      <div class="card" id="card4">
-        <div class="cardHead">
-          <h3>Developer
-            <hr/>
-          </h3><img src="/static/images/developer.png" alt="developer"/>
-        </div>
-        <div class="cardContent">
-          <p>Development is field of create something new interesting.</p><a href="/member.html"> 
-            <button id="cardBtn">Show Member</button></a>
-        </div>
+
+
       </div>
     </div>
-  </div>
+
     <div class="foot">
       <footer>
         <div class="footFirest">
@@ -134,5 +130,6 @@
         </div>
       </footer>
     </div>
+    <script src="/static/js/member.js"></script>
   </body>
 </html>

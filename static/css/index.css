@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin:0;
+    outline: none;
+}
+
+.intro {
+    background-image: url('/static/images/intro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h2 {
+    font-family: 'Signika',sans-serif;
+    font-size: 3.5rem;
+    color:#3f3d56;
+}
+.intro p {
+    font-family: 'Signika',sans-serif;
+    font-size: 1.5rem;
+    color:#3f3d56;
+    margin: 1rem;
+}
+.intro button {
+    font-family: 'Signika',sans-serif;
+    font-size: 2rem;
+    /* color:#01b3f9; */
+    color:#7d7d7d;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 0 5px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.intro button:hover {
+    box-shadow: 0px 2px 5px 3px #7d7d7dba;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards h2 {
+    font-family: 'Signika',sans-serif;
+    font-size: 2rem;
+    color: #7d7d7d;
+    margin:20px 0px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    margin: 2rem;
+
+}
+.card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #cfcfcf;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.card:hover {
+    box-shadow: 0px 2px 8px 1px #808080c9;
+}
+
+.cardHead h3{
+    font-family: 'Signika',sans-serif;
+    font-size: 2rem;
+    color:#7d7d7d;
+    text-align: center;
+}
+.cardContent {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 1.5rem;
+    /* color: #01b3f9; */
+    color:#7d7d7d;
+    text-align: center;
+}
+.cardHead img {
+    width: 200px;
+}
+.cardContent button {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 1.3rem;
+    color: #01b3f9;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    outline: none;
+    margin-top: 10px;
+    box-shadow: 0px 1px 7px 0px #80808096;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.cardContent button:hover {
+    background-color:#01b3f9;
+    color: white;
+    box-shadow: 0px 2px 7px 0px #80808096;
+}
+
+.cardHead hr {
+    border: 1px solid #7d7d7d;
+} 
+
+
+@media only screen and (max-width:1000px) {
+    .intro {
+        width: auto;
+        color:white;
+    }
+    .intro h2 {
+        font-size: 1.4rem;
+        color:white;
+    }
+    .intro p {
+        text-align: center;
+        color:white;
+    }
+    .card-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

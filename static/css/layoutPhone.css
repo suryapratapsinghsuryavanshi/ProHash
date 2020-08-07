@@ -1,0 +1,22 @@
+@media only screen and (max-width:1000px) {
+    .footFirest {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footSecond {
+        width: 100%;
+    }
+    .footMid {
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .footMain {
+        width: 100%;
+    }
+    .nav ul li a {
+        margin:0.8rem;
+        font-size: 1rem;
+    }
+}

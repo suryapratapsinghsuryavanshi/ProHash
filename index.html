@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/static/css/layoutStyle.css" />
   <link rel="stylesheet" href="/static/css/layoutPhone.css" />
   <link rel="stylesheet" href="/static/css/index.css" />
+  <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -19,9 +20,9 @@
       <ul class="namList">
         <li id="navItem1"><a href="#"></a></li>
         <li id="navItem2"><a href="/">Home</a></li>
-        <li id="navItem2"><a href="#secondScroll">Oppurtunties</a></li>
-        <li id="navItem3"><a href="#">About</a></li>
-        <li id="navItem4"><a href="#lastScroll">Contact</a></li>
+        <li id="navItem2"><a href="#secondScroll">Opportunities</a></li>
+        <li id="navItem3"><a href="#aboutScroll">About</a></li>
+        <li id="navItem4"><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -117,7 +118,7 @@
   </div>
   <div id='secondScroll' class="oppurtunties">
     <div class="oppurtuntiesHead">
-      <h2>Oppurtunties</h2>
+      <h2>Opportunities</h2>
     </div>
     <div class="oppurtuntiesContent">
       <ul>
@@ -148,6 +149,51 @@
       </ul>
     </div>
   </div>
+  <div class="wait">
+    <div class="clock">
+      <div class="hour">
+          <div class="hr" id="hr"></div>
+      </div>
+      <div class="min">
+          <div class="mn" id="mn"></div>
+      </div>
+      <div class="sec">
+          <div class="sc" id="sc"></div>
+      </div>
+    </div>
+    <div class="waitContent">
+      <h3>If You're an artist <span> Social Shout </span> waiting for you.</h3>
+    </div>
+  </div>
+  <div id="aboutScroll" class="aboutSection">
+    <div class="aboutHead">
+      <h2>About Us</h2>
+      <img src="/static/images/logo.png" alt="logo">
+    </div>
+    <div class="aboutContent">
+      <p>Social Shout is a Art Community and Online social service which is founded in 2020. We the under grade students are focusing on creating the community which helps the artist’s to grow in their respective art. </p>
+      <p>As a team we always has a think, your art is the only way from where you can showcase yourself, And Igniting and expressing your art is never be the bad idea.</p>
+      <p>Hopping on board this community can be an excellent source of inspiration and motivation for any artist, affording you the opportunity to upload your art, receive feedback, learn new techniques, and have meaningful conversation with like-minded individuals at no cost to you. You will be surrounded by other creative people, inspiring work at every corner, and have access to a plethora of resources that will help you perfect your craft and explore the unknown.</p>
+    </div>
+  </div>
+
+
+  <div id='contact' class="contactSection">
+    <div class="contactBox">
+      <h2>Contact</h2>
+      <form action="#">
+        <div class="upperSet">
+          <input type="text" name="name" id="name" placeholder="Enter Your Name">
+          <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <textarea placeholder="Enter About Our Service" name="say" id="say"></textarea>
+        <div class="buttonContact">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
   <div id='lastScroll' class="foot">
     <footer>
       <div class="footFirest">
@@ -187,6 +233,7 @@
       </div>
     </footer>
   </div>
+  <script src="/static/js/script.js"></script>
 </body>
 
 </html>
